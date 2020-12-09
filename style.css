@@ -1,0 +1,80 @@
+body {
+	background-color: #121212;
+	color: black;
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+	line-height: 5.0;
+	background-image: url(images/background.jpg)
+}
+h2 {
+	color: #33165f;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+h3 {
+	color: rgb(200,200,200,1);
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+}
+
+p {
+	color: rgb(200,200,200,1);
+	font-family: courier;
+	text-align: justify;
+	font-weight: bolder;
+}
+
+#profilepic{
+	border-radius: 5%;
+}
+
+.page-purple{
+    width: 700px;
+    margin: 10px auto;
+    background: #1F1A24;
+    padding: 10px;
+    box-shadow: 0px 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.list-horiz{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horiz li {
+	display: inline;
+	padding: 0px 15px;
+}
+.list-horiz i {
+	font-size: 50px;
+	color: #33165f;
+}
+.list-horiz i:hover{
+	font-size: 50px;
+	color: white;
+}
+
+#title-picture{
+	width: 900px;
+	margin: 10px auto;
+}
+
+@media (max-width: 1200px){
+	.page-purple{
+		width: 600px;
+	}
+}
+
+@media (max-width: 900px){
+	.page-purple{
+		width: 450px;
+	}
+}
+
+@media (max-width: 700px){
+	.page-purple{
+		width: 350px;
+	}
+}
